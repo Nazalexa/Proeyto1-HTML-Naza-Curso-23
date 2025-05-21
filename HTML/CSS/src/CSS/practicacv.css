@@ -155,7 +155,7 @@ main p{
 }
 
 .contacto:hover{
-  color: rgb(129, 12, 165);
+  color: white;
   transition: 0.2s;
 }
 
@@ -165,12 +165,12 @@ main p{
 }
 
 .educacion:hover{
-  color: rgb(129, 12, 165);
+  color: white;
   transition: 0.2s;
 }
 
 .habilidades:hover{
-  color: rgb(129, 12, 165);
+  color: white;
   transition: 0.2s;
 }
 
