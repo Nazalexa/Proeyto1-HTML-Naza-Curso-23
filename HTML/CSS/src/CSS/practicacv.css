@@ -21,7 +21,7 @@ nav{
 
 nav div{
   display: flex;
-  justify-content: space-between;
+  justify-content: space-h;
   align-items: center;
   gap: 100px;
 }
@@ -65,7 +65,7 @@ main{
   padding: 30px;
 }
 
-main h1{
+h1{
   font-size: 40px;
   font-weight: bold;
   text-align: center;
@@ -74,6 +74,7 @@ main h1{
   padding-top: 70px;
 }
 
+
 main h1:hover{
   transform: scale(1.2);
 }
@@ -81,9 +82,25 @@ main h1:hover{
 main h2{
   font-size: 30px;
   font-weight: bold;
+  margin-bottom: 10px;
 }
-main p{
-  font-size: 20px;}
+
+main h2:hover{
+  transform: scale(1.2);
+}
+
+header > h2{
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  color:black;
+  margin-top: 30px;
+}
+
+p{
+  font-size: 20px;
+  margin-bottom: 10px;
+}
 
 .main {
   display: flex;
@@ -107,6 +124,7 @@ main p{
   display: flex;
   justify-content: space-between;
   align-items: center;
+  text-wrap: balance;
   gap: 50px;
   margin: 60px;
   padding: 80px;
